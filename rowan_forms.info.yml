@@ -1,0 +1,6 @@
+name: rowan_forms
+type: module
+description: This is an example module to demo the use of Drupal Form API.
+package: Example
+core: 8.x
+core_version_requirement: ^8 || ^9

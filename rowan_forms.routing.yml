@@ -1,0 +1,15 @@
+rowan_forms.simple.form:
+  path: '/simple-form'
+  defaults:
+    _title: 'Simple form example'
+    _form: 'Drupal\rowan_forms\Form\SimpleForm'
+  requirements:
+    _permission: 'access content'
+
+rowan_forms.ajax.form:
+  path: '/ajax-form'
+  defaults:
+    _title: 'Ajax form example'
+    _form: 'Drupal\rowan_forms\Form\AjaxSimpleForm'
+  requirements:
+    _permission: 'access content'
